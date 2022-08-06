@@ -2,7 +2,7 @@
 
 # list possible endings
 # raptor horizontal, vertical, tripod, merlin, MVac
-allowed_endings = ["l", "c", "d", "n", "1", "2"]
+allowed_endings = ["l", "c", "d", "n", "1", "2", "o"]
 
 
 def check_ending_allowed(word):
