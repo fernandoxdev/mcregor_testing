@@ -24,7 +24,7 @@ CamGear obtains a single frame from the YouTube stream. Then, it gets cropped an
 
 *Install required dependencies*
  1. `sudo apt install tesseract-ocr`
- 2. `sudo apt install opencv-python`
+ 2. `sudo apt install python3-opencv`
  3. `pip install opencv-python`
  4. `pip install -U vidgear[core]`
  5. `pip install Pillow`

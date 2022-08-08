@@ -19,6 +19,8 @@ def get_final_data(tests):
          # get the time
          time_regex = r"\d{1,2}:\d{2}:\d{2,3}\s?\w{2}"
          time = re.search(time_regex, test)
+         if time is None:
+            break
          original_time = time.group(0)
          time = re.sub(r'[^a-zA-Z0-9:]', '', original_time).strip()
 
